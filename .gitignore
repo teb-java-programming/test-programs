@@ -83,3 +83,6 @@ http-client.private.env.json
 
 # System files
 .DS_Store
+
+# Test drivers and suites
+**/drivers/

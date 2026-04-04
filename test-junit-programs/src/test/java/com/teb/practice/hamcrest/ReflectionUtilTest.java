@@ -34,11 +34,11 @@ class ReflectionUtilTest {
 
         User user = new User(ID, NAME, SECRET);
 
-        Exception exception =
+        Exception e =
                 assertThrows(
                         RuntimeException.class,
                         () -> reflectionUtil.getPrivateField(user, "unknown"));
-        assertThat(exception.getMessage(), containsString("Error accessing field"));
+        assertThat(e.getMessage(), containsString("Error accessing field"));
     }
 
     @Test
@@ -52,10 +52,10 @@ class ReflectionUtilTest {
     @Test
     void testThrowsExceptionWhenMethodDoesNotExist() {
 
-        Exception exception =
+        Exception e =
                 assertThrows(
                         RuntimeException.class,
                         () -> reflectionUtil.invokeMethod(INPUT, "unknownMethod"));
-        assertThat(exception.getMessage(), containsString("Error invoking method"));
+        assertThat(e.getMessage(), containsString("Error invoking method"));
     }
 }
