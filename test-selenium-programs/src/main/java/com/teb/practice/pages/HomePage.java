@@ -26,8 +26,8 @@ public class HomePage extends BasePage {
     public void rejectConsent() {
 
         try {
-            WebElement rejectBtn = waitForElementClickable(webDriver, rejectAllButton, 10);
-            rejectBtn.click();
+            WebElement rejectButton = waitForElementClickable(webDriver, rejectAllButton, 10);
+            rejectButton.click();
         } catch (Exception e) {
             // Ignored
         }

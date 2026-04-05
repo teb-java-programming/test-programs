@@ -2,7 +2,15 @@
 
 ## Modules
 
-#### JUnit Programs (junit-programs)
+#### Cucumber Programs (test-cucumber-programs)
+
+#### JUnit Programs (test-junit-programs)
+
+#### Pit Mutation Programs (test-pit-mutation-programs)
+
+#### Rest Assured Programs (test-rest-assured-programs)
+
+#### Selenium Programs (test-selenium-programs)
 
 ***
 
@@ -20,6 +28,9 @@ The project requires the following software and plugins to be installed.
 #### Plugin
 
 - Lombok
+- Cucumber for Java
+- Gherkin
+- WireMock
 - google-java-format
 
 ***
