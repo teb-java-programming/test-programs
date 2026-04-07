@@ -23,6 +23,7 @@ class CalculatorTest {
     private final Calculator calculator = new Calculator();
 
     static Stream<Arguments> divisionProvider() {
+
         return Stream.of(
                 Arguments.of(64, 16, 4.0, null),
                 Arguments.of(-78, 6, -13.0, null),

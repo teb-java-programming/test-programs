@@ -21,6 +21,7 @@ class PurchaseServiceTest {
     private final PurchaseService service = new PurchaseService();
 
     static Stream<Arguments> priceProvider() {
+
         return Stream.of(
                 Arguments.of("Robin", 200, "Book", 40, 40, 160, 10, 9),
                 Arguments.of("Tom", 200, "Laptop", 200, 160, 40, 4, 3),
