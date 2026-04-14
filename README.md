@@ -4,9 +4,7 @@
 
 #### Cucumber Programs (test-cucumber-programs)
 
-#### JUnit4 Programs (test-junit4-programs)**
-
-#### JUnit5 Programs (test-junit5-programs)
+#### JUnit Programs (test-junit-programs)**
 
 #### Pit Mutation Programs (test-pit-mutation-programs)
 
@@ -14,9 +12,10 @@
 
 #### Selenium Programs (test-selenium-programs)
 
-**The code works with older versions of dependencies that might no
-longer be supported or be secure. The dependencies are explicitly declared in the `pom.xml` as the parent module uses
-later versions.
+** Some submodules use older versions of dependencies that might no
+longer be supported or be secure, and therefore are skipped during build.
+The dependencies are explicitly declared in the respective `pom.xml` as the parent module uses
+latest versions.
 
 ***
 

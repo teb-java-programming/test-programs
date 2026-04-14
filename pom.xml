@@ -11,7 +11,7 @@
 
     <modules>
         <module>test-cucumber-programs</module>
-        <module>test-junit5-programs</module>
+        <module>test-junit-programs</module>
         <module>test-pit-mutation-programs</module>
         <module>test-rest-assured-programs</module>
         <module>test-selenium-programs</module>
